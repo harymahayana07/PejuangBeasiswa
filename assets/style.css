@@ -1,0 +1,581 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap);
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  overflow: auto;
+  background-color: #114caa;
+}
+.text-none {
+  text-decoration: none;
+}
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #fff;
+}
+.banner-pb {
+  background-image: url(img/pejuang-beasiswas-1.png);
+  height: 200px;
+  background-size: cover;
+  background-position: bottom;
+}
+div.banner-pb2 {
+  display: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 21px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  max-width: 180px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: left;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.head1 {
+  margin-right: 600px;
+}
+#content-pb {
+  margin-top: 120px;
+}
+.tampil {
+  display: block;
+}
+.banner-pb2 {
+  background-image: url(img/pejuang-beasiswas-1.png);
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+  transform: rotate(180deg);
+}
+#curve-path {
+  background-color: #f9f9f9;
+  margin-bottom: -10px;
+}
+#curve-path2 {
+  background: linear-gradient(to bottom, #114caa 7%, #cc33ff 104%);
+}
+#curve2 {
+  bottom: 0;
+  width: 100%;
+  margin-bottom: -10px;
+  background: linear-gradient(to bottom, #114caa 7%, #cc33ff 104%);
+  transform: rotateY(180deg);
+}
+path {
+  background-color: #000;
+}
+.text-left {
+  text-align: left;
+}
+nav a:hover {
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: #cb6318;
+  size: 20px;
+  text-decoration: none;
+  flex-basis: 25%;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #000;
+  margin: 3px;
+}
+nav > .nav-box {
+  display: inline;
+}
+nav > .nav-box > .nav-kanan {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  text-shadow: -1px -1px 0 #114caa, 3px 3px 0 #114caa, 6px 6px 0 #000;
+}
+nav > .nav-kanan {
+  display: inline;
+  float: right;
+}
+#navbar {
+  padding: 5px;
+}
+div.nav-kanan {
+  text-align: right;
+  margin-right: 40px;
+}
+.btn-nav {
+  margin-top: 7px;
+  margin-left: 55px;
+}
+header {
+  display: inline;
+}
+.profile header {
+  text-align: center;
+}
+aside#p-beasiswa {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  background-color: #114caa;
+}
+aside#content-3 {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  justify-content: center;
+}
+h2,
+h3 {
+  color: #00a2c6;
+}
+div#content-1 {
+  max-width: 800px;
+  background-color: #f9f9f9;
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+section#content-1 {
+  background-color: #f9f9f9;
+}
+div#content-2 {
+  max-width: 800px;
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+div#banner {
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+#content-1 {
+  float: left;
+  width: 100%;
+  padding: 20px;
+}
+#content-2 {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  background-color: #114caa;
+}
+div#banner {
+  float: right;
+  padding: 20px;
+  background-color: #114caa;
+  width: 100%;
+}
+.box-sizing {
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen;
+  border: 10px solid cornflowerblue;
+  padding: 20px;
+}
+div#info-beasiswa {
+  max-width: 800px;
+  background-color: rgb(200, 200, 200);
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+#info-beasiswa {
+  float: left;
+  width: 75%;
+  background-color: #114caa;
+}
+.content-box {
+  box-sizing: content-box;
+}
+.border-box {
+  box-sizing: border-box;
+}
+#content-1 > h2 {
+  text-align: center;
+  color: #114caa;
+  padding: 15px;
+}
+#content-3 > h2 {
+  text-align: center;
+  color: #114caa;
+}
+#content-pejuang > h2 {
+  text-align: center;
+  color: #f9f9f9;
+  border-bottom: 5px dotted #f9f9f9;
+  margin-left: 520px;
+  margin-right: 520px;
+  margin-top: 10px;
+  margin-bottom: -0.5px;
+  padding-top: 60px;
+  padding-bottom: 8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#content-pejuang {
+  background-color: #114caa;
+}
+.path2 {
+  fill: #114caa;
+}
+#content-1 > h3 {
+  background-color: #60d0a8;
+  padding: 15px;
+  color: #fff;
+}
+#content-1 > p {
+  background-color: hsl(56, 62%, 85%);
+  padding: 20px;
+}
+#content-2 > .c2-head > h2 {
+  text-align: center;
+  color: #f9f9f9;
+  padding: 10px;
+  margin-top: 60px;
+}
+.c2-head {
+  color: #f9f9f9;
+}
+.center {
+  text-align: center;
+  margin: 0;
+}
+#content-2 > h3 {
+  background-color: #60d0a8;
+  padding: 15px;
+  color: #fff;
+}
+#content-2 > p {
+  background-color: hsl(56, 62%, 85%);
+}
+#content > h2 {
+  background-color: #4c5450;
+  padding: 15px;
+  color: #fff;
+}
+#content > h3 {
+  background-color: #60d0a8;
+  padding: 15px;
+  color: #fff;
+}
+#content > p {
+  background-color: hsl(56, 62%, 85%);
+  padding: 20px;
+}
+.box-w {
+  border-style: solid;
+  border-width: 8px 8px 8px 8px;
+  border-top-color: rgb(255, 0, 0);
+  border-right-color: #e2e20f;
+  border-bottom-color: #4ee717;
+  border-left-color: #00c8eb;
+  background-color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 6px 6px 5px 10px #666;
+}
+.rounded {
+  border-radius: 10px;
+  background-color: #e2e20f;
+}
+.h-login {
+  padding: 10px;
+}
+nav {
+  background-color: #114caa;
+  padding: 5px 120px 5px 120px;
+  position: sticky;
+  top: 0;
+}
+.card-header {
+  height: 180px;
+}
+.card-body {
+  padding: 10px 10px;
+}
+.detail-sosmed {
+  top: 30%;
+  left: 5%;
+  width: 90%;
+  position: fixed;
+  z-index: 9999;
+  padding: 10px 10px;
+  border-radius: 15px;
+  transform: translateY(-400%);
+  transition: transform 0.5s;
+  background: #fff;
+}
+.header-detail {
+  margin: 0;
+}
+.header-detail a.tombol-close {
+  background: rgb(0, 177, 195);
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 15px;
+  text-decoration: none;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.header-detail a.tombol-close:hover {
+  background: #fff;
+  padding: 5px 15px;
+  color: rgb(0, 177, 195);
+  box-sizing: content-box;
+  border: 2px solid rgb(0, 177, 195);
+}
+.detail:before {
+  display: none;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.detail:target .detail-sosmed {
+  transform: translateY(0%);
+}
+.detail:target:before {
+  display: block;
+}
+img.avatar {
+  height: 160px;
+  width: 150px;
+  margin: 0 auto;
+  border: 8px solid rgb(0, 153, 153);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  border-radius: 50%;
+}
+img.img-sosmed {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  border: 2px solid rgb(0, 153, 153);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  border-radius: 20%;
+  margin-right: 5px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+.btn-nav {
+  display: block;
+}
+nav li {
+  display: inline;
+  margin-right: 5px;
+  list-style-type: none;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.card-tips {
+  box-shadow: 0 4px 12px 5px gray;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.mleft {
+  margin-left: 15px;
+}
+.mtop {
+  margin-top: 40px;
+}
+.jumbotron_bottom {
+  height: 400px;
+  background-color: #114caa;
+  margin-bottom: 150px;
+}
+.button {
+  text-decoration: none;
+  border-radius: 10px;
+  flex-basis: 25%;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #000;
+  background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+}
+.tombol-link {
+  text-decoration: none;
+  border-radius: 5px;
+  flex-basis: 25%;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #000;
+  background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+}
+.jumbotron {
+  padding: 60px;
+  background-image: url(img/kelulusan.png);
+  background-repeat: no-repeat, repeat;
+  background-position: right bottom;
+  height: 400px;
+  background-size: 600px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+}
+.featured-image {
+  width: 15%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+footer {
+  padding: 20px;
+  color: #fff;
+  background: linear-gradient(to bottom, #cc99ff 7%, #6600ff 131%);
+  text-align: center;
+  font-weight: 700;
+}
+@media screen and (max-width: 1000px) {
+  #content-1,
+  #content-2,
+  #info-beasiswa,
+  aside#p-beasiswa,
+  aside#content-3 {
+    width: 100%;
+    padding: 0;
+  }
+  .head1 {
+    margin-right: 400px;
+  }
+  .btn-nav {
+    margin-top: 7px;
+    margin-left: 16px;
+  }
+  .jumbotron {
+    height: 300px;
+    background-size: 400px;
+    background-color: #114caa;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+  }
+  nav ul {
+    margin-right: 10px;
+  }
+  #content-pejuang > h2 {
+    text-align: center;
+    color: #f9f9f9;
+    border-bottom: 5px dotted #f9f9f9;
+    margin-left: 285px;
+    margin-right: 285px;
+    margin-top: 10px;
+    margin-bottom: -0.5px;
+    padding-top: 60px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #content-1 > h2 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  #info-beasiswa,
+  aside#p-beasiswa,
+  aside#content-3 {
+    width: 100%;
+    padding: 0;
+  }
+  nav ul {
+    margin-right: 0;
+  }
+  .jumbotron {
+    background-image: none;
+    background-color: #114caa;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+  }
+  .btn-nav {
+    margin-top: 7px;
+    margin-left: 16px;
+  }
+  .dropdown-content {
+    margin-top: 13px;
+    background-color: #60d0a8;
+  }
+  .head1 {
+    margin-right: 0;
+  }
+  #navbar {
+    padding: 5px;
+  }
+  div.nav-kanan {
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .area-card {
+    display: block;
+  }
+  #content-pejuang > h2 {
+    text-align: center;
+    color: #f9f9f9;
+    border-bottom: 5px dotted #f9f9f9;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 10px;
+    margin-bottom: -0.5px;
+    padding-top: 60px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mtop {
+    margin-top: 50px;
+  }
+  .center {
+    padding: 5px;
+    padding: 5px 15px 5px 15px;
+  }
+}
